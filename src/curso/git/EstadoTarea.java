@@ -4,5 +4,18 @@ package curso.git;
  * Estados por los que pasa una tarea.
  */
 public enum EstadoTarea {
-    PENDIENTE, EN_PROGRESO, COMPLETADA
+    PENDIENTE("Pendiente"),
+    EN_PROGRESO("En progreso"),
+    COMPLETADA("Completada");
+
+    private final String etiqueta;
+
+    EstadoTarea(String etiqueta) {
+        this.etiqueta = etiqueta;
+    }
+
+    @Override
+    public String toString() {
+        return etiqueta;
+    }
 }
