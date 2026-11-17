@@ -43,7 +43,7 @@ public class Tarea {
      * Devuelve una línea de texto con los datos principales de la tarea.
      */
     public String resumen() {
-        return "#" + id + " " + titulo + " [" + estado + "]";
+        return "#" + id + " " + titulo + " [" + estado + "] - " + descripcion;
     }
 
     @Override
