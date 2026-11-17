@@ -35,7 +35,7 @@ public class Main {
         System.out.println();
         System.out.println(titulo + ":");
         for (Tarea tarea : tareas) {
-            System.out.println("  " + tarea.resumen());
+            System.out.println(" Tarea resumen " + tarea.resumen());
         }
     }
 }
