@@ -1,6 +1,7 @@
 # Gestor de tareas
 
 Aplicación Java de consola para practicar Git y GitHub desde VS Code.
+Modificacion desde  Github
 
 ## Estructura
 
